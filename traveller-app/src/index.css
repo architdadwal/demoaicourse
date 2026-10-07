@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --font-display: 'Libre Baskerville', Georgia, serif;
+  --color-cream-50: #fdfcfa;
+  --color-cream-100: #f7f4ef;
+  --color-cream-200: #ebe6dc;
+  --color-peak-50: #f0f4f8;
+  --color-peak-100: #dce4ed;
+  --color-peak-200: #b8c9d9;
+  --color-peak-300: #8aa4be;
+  --color-peak-400: #5c7fa0;
+  --color-peak-500: #3d6282;
+  --color-peak-600: #2c5282;
+  --color-peak-700: #1e3a5f;
+  --color-peak-800: #172e4a;
+  --color-peak-900: #0f2744;
+  --color-rust-50: #fdf5f2;
+  --color-rust-100: #fce8e0;
+  --color-rust-200: #f9d0c0;
+  --color-rust-300: #f0a78a;
+  --color-rust-400: #e07d56;
+  --color-rust-500: #c45c3e;
+  --color-rust-600: #a84832;
+  --color-rust-700: #8a3a28;
+  --color-rust-800: #6e3022;
+  --color-rust-900: #5a2a1f;
+  --color-snow-50: #f8fafc;
+  --color-snow-100: #f1f5f9;
+  --color-snow-800: #334155;
+  --color-snow-900: #0f172a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-cream-50);
+  color: var(--color-peak-800);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
